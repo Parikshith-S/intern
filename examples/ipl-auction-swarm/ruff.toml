@@ -1,0 +1,5 @@
+# Inherit the repository ruff settings; allow long lines for prompt text and fixture data in this example.
+extend = "../../pyproject.toml"
+
+[lint]
+extend-ignore = ["E501"]
